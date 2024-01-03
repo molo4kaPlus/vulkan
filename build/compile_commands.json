@@ -1,0 +1,98 @@
+[
+{
+  "directory": "C:/code/vulkan/build",
+  "command": "C:/Users/gleb/gcc/bin/g++.exe  @CMakeFiles/vulkan_proj.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles/vulkan_proj.dir/main.cpp.obj -c C:/code/vulkan/main.cpp",
+  "file": "C:/code/vulkan/main.cpp",
+  "output": "CMakeFiles/vulkan_proj.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/code/vulkan/build/lib/glfw/src",
+  "command": "C:/Users/gleb/gcc/bin/gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/context.c.obj -c C:/code/vulkan/lib/glfw/src/context.c",
+  "file": "C:/code/vulkan/lib/glfw/src/context.c",
+  "output": "lib/glfw/src/CMakeFiles/glfw.dir/context.c.obj"
+},
+{
+  "directory": "C:/code/vulkan/build/lib/glfw/src",
+  "command": "C:/Users/gleb/gcc/bin/gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/init.c.obj -c C:/code/vulkan/lib/glfw/src/init.c",
+  "file": "C:/code/vulkan/lib/glfw/src/init.c",
+  "output": "lib/glfw/src/CMakeFiles/glfw.dir/init.c.obj"
+},
+{
+  "directory": "C:/code/vulkan/build/lib/glfw/src",
+  "command": "C:/Users/gleb/gcc/bin/gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/input.c.obj -c C:/code/vulkan/lib/glfw/src/input.c",
+  "file": "C:/code/vulkan/lib/glfw/src/input.c",
+  "output": "lib/glfw/src/CMakeFiles/glfw.dir/input.c.obj"
+},
+{
+  "directory": "C:/code/vulkan/build/lib/glfw/src",
+  "command": "C:/Users/gleb/gcc/bin/gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/monitor.c.obj -c C:/code/vulkan/lib/glfw/src/monitor.c",
+  "file": "C:/code/vulkan/lib/glfw/src/monitor.c",
+  "output": "lib/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj"
+},
+{
+  "directory": "C:/code/vulkan/build/lib/glfw/src",
+  "command": "C:/Users/gleb/gcc/bin/gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/vulkan.c.obj -c C:/code/vulkan/lib/glfw/src/vulkan.c",
+  "file": "C:/code/vulkan/lib/glfw/src/vulkan.c",
+  "output": "lib/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj"
+},
+{
+  "directory": "C:/code/vulkan/build/lib/glfw/src",
+  "command": "C:/Users/gleb/gcc/bin/gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/window.c.obj -c C:/code/vulkan/lib/glfw/src/window.c",
+  "file": "C:/code/vulkan/lib/glfw/src/window.c",
+  "output": "lib/glfw/src/CMakeFiles/glfw.dir/window.c.obj"
+},
+{
+  "directory": "C:/code/vulkan/build/lib/glfw/src",
+  "command": "C:/Users/gleb/gcc/bin/gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/win32_init.c.obj -c C:/code/vulkan/lib/glfw/src/win32_init.c",
+  "file": "C:/code/vulkan/lib/glfw/src/win32_init.c",
+  "output": "lib/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj"
+},
+{
+  "directory": "C:/code/vulkan/build/lib/glfw/src",
+  "command": "C:/Users/gleb/gcc/bin/gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/win32_joystick.c.obj -c C:/code/vulkan/lib/glfw/src/win32_joystick.c",
+  "file": "C:/code/vulkan/lib/glfw/src/win32_joystick.c",
+  "output": "lib/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj"
+},
+{
+  "directory": "C:/code/vulkan/build/lib/glfw/src",
+  "command": "C:/Users/gleb/gcc/bin/gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/win32_monitor.c.obj -c C:/code/vulkan/lib/glfw/src/win32_monitor.c",
+  "file": "C:/code/vulkan/lib/glfw/src/win32_monitor.c",
+  "output": "lib/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj"
+},
+{
+  "directory": "C:/code/vulkan/build/lib/glfw/src",
+  "command": "C:/Users/gleb/gcc/bin/gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/win32_time.c.obj -c C:/code/vulkan/lib/glfw/src/win32_time.c",
+  "file": "C:/code/vulkan/lib/glfw/src/win32_time.c",
+  "output": "lib/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj"
+},
+{
+  "directory": "C:/code/vulkan/build/lib/glfw/src",
+  "command": "C:/Users/gleb/gcc/bin/gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/win32_thread.c.obj -c C:/code/vulkan/lib/glfw/src/win32_thread.c",
+  "file": "C:/code/vulkan/lib/glfw/src/win32_thread.c",
+  "output": "lib/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj"
+},
+{
+  "directory": "C:/code/vulkan/build/lib/glfw/src",
+  "command": "C:/Users/gleb/gcc/bin/gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/win32_window.c.obj -c C:/code/vulkan/lib/glfw/src/win32_window.c",
+  "file": "C:/code/vulkan/lib/glfw/src/win32_window.c",
+  "output": "lib/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj"
+},
+{
+  "directory": "C:/code/vulkan/build/lib/glfw/src",
+  "command": "C:/Users/gleb/gcc/bin/gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/wgl_context.c.obj -c C:/code/vulkan/lib/glfw/src/wgl_context.c",
+  "file": "C:/code/vulkan/lib/glfw/src/wgl_context.c",
+  "output": "lib/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj"
+},
+{
+  "directory": "C:/code/vulkan/build/lib/glfw/src",
+  "command": "C:/Users/gleb/gcc/bin/gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/egl_context.c.obj -c C:/code/vulkan/lib/glfw/src/egl_context.c",
+  "file": "C:/code/vulkan/lib/glfw/src/egl_context.c",
+  "output": "lib/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj"
+},
+{
+  "directory": "C:/code/vulkan/build/lib/glfw/src",
+  "command": "C:/Users/gleb/gcc/bin/gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/osmesa_context.c.obj -c C:/code/vulkan/lib/glfw/src/osmesa_context.c",
+  "file": "C:/code/vulkan/lib/glfw/src/osmesa_context.c",
+  "output": "lib/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj"
+}
+]
