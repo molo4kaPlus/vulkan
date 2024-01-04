@@ -382,7 +382,7 @@ private:
         std::cout << "GPU: " << deviceProperties.deviceName << std::endl; 
         std::cout << "Vulkan version: " << deviceProperties.apiVersion << std::endl;
         std::cout << "Driver version: " << deviceProperties.driverVersion << std::endl;
-        
+
         QueueFamilyIndices indices = findQueueFamilies(device);
 
         bool extensionsSupported = checkDeviceExtensionSupport(device);
