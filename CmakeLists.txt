@@ -17,7 +17,7 @@ target_link_libraries(vulkan_proj glfw)
 add_subdirectory(${CMAKE_SOURCE_DIR}/lib/glm)
 target_link_libraries(vulkan_proj glm)
 
-#add glm
+#add vulkan
 find_package(Vulkan REQUIRED)
 target_link_libraries(vulkan_proj Vulkan::Vulkan)
 
