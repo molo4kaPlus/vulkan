@@ -1,0 +1,17 @@
+set(TG_VERSION "0.0.1")
+project(tg VERSION ${TG_VERSION} LANGUAGES CXX)
+
+add_library(tg SHARED 
+    window.cpp)
+
+#add glfw
+add_subdirectory(lib/glfw)
+target_link_libraries(tg glfw)
+
+#add glm
+add_subdirectory(lib/glm)
+target_link_libraries(tg glm)
+
+#add vulkan
+find_package(Vulkan REQUIRED)
+target_link_libraries(tg Vulkan::Vulkan)

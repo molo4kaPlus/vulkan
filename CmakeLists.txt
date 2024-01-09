@@ -1,25 +1,26 @@
 cmake_minimum_required(VERSION 3.16)
+project(vulkan VERSION "0.0.1" LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(vulkan_proj main.cpp)
+
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/debug)
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/debug)
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/debug)
+set(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/debug)
+
+set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
 
 #disable building shit from glfw and glm
 set(GLFW_BUILD_DOCS OFF CACHE BOOL "" FORCE)
 set(GLFW_BUILD_TESTS OFF CACHE BOOL "" FORCE)
 set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
 
-#add glfw 
-add_subdirectory(${CMAKE_SOURCE_DIR}/lib/glfw)
-target_link_libraries(vulkan_proj glfw)
 
-#add glm
-add_subdirectory(${CMAKE_SOURCE_DIR}/lib/glm)
-target_link_libraries(vulkan_proj glm)
-
-#add vulkan
-find_package(Vulkan REQUIRED)
-target_link_libraries(vulkan_proj Vulkan::Vulkan)
+#add engine dir
+add_subdirectory(${CMAKE_SOURCE_DIR}/engine)
+target_link_libraries(vulkan_proj tg)
 
 #copying pre compiled shaders
 add_custom_command(TARGET vulkan_proj COMMAND ${CMAKE_COMMAND} -E copy_directory ${CMAKE_SOURCE_DIR}/shaders ${CMAKE_CURRENT_LIST_DIR}/build/shaders)
