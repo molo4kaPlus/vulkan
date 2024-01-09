@@ -23,4 +23,3 @@ target_link_libraries(vulkan_proj Vulkan::Vulkan)
 
 #copying pre compiled shaders
 add_custom_command(TARGET vulkan_proj COMMAND ${CMAKE_COMMAND} -E copy_directory ${CMAKE_SOURCE_DIR}/shaders ${CMAKE_CURRENT_LIST_DIR}/build/shaders)
-
