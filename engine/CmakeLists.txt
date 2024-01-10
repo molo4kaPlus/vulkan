@@ -2,7 +2,8 @@ set(TG_VERSION "0.0.1")
 project(tg VERSION ${TG_VERSION} LANGUAGES CXX)
 
 add_library(tg SHARED 
-    window.cpp)
+    tg_window.cpp
+    first_app.cpp)
 
 #add glfw
 add_subdirectory(lib/glfw)
